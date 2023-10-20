@@ -1,0 +1,148 @@
+
+/*This assign the layout format of the body. The text alignment are set to centre and a single font is assigned to the whole website for consistency.
+The background color is to match the creamy hair color of Mocha */
+body {
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: seashell;
+}
+
+/*This assign the background layout of the navigation bar, the width is the full expand of the container
+The height is a fixed size and the background color is black. It is a sticky navigation bar so it won't move when the user is scrolling and always stays above the other elements */
+#navbar{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/*Styles for the unordered list inside the nav bar*/
+#navbar ul{
+    padding-top: 50px;
+    margin: 0 0 0 20px;
+    list-style: none;
+}
+
+/*Styles of the list items inside of the navigation bar*/
+#navbar li{
+    float:right;
+}
+
+/*Styles for the anchor links that are within the navigation bar*/
+#navbar a{
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    text-decoration: underline;
+    height: 50px;
+    width: 100px;
+    overflow: auto;
+    color: seashell;
+}
+
+/*Position of the logo image on the left end of the navigation bar*/
+#navbar img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/*External link insterted using a different style*/
+.donation-link{
+    font-weight: bolder;
+}
+
+/*Text style for the main titles*/
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    font-size:300%;
+    color:#513C2C
+}
+
+/*Text style for the sub-titles*/
+h2 {
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    font-size: 200%;
+    color: #513C2C;
+}
+
+/*Margin and padding setting for the 'About Me' section*/
+.info { 
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*Color, margin and font size adjustment for paragraphs*/
+p{
+    color: #513C2C;
+    font-size: 130%;
+    margin: 10px;
+
+}
+
+/*Display setting for the services section*/
+.flexbox-container {
+    display:flex;
+    justify-content:center;
+
+}
+
+/*The design of the items inside the boxes*/
+.flexbox-item {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width:200px;
+    margin:10px;
+    border: 2px solid #513C2C;
+    background-color: whitesmoke;  
+}
+
+
+/*Display stile for the Education section*/
+.education{
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20%;
+    padding-right:20%;
+    margin-bottom: 100px;
+}
+
+
+/*Display setting for the name of fake schools under the Education list*/
+.educationline dt{
+    font-weight: bold;
+    float: left;
+}
+
+/*Display setting of the time range of studying at each schools*/
+.range{
+    font-style: italic;
+    float: right;
+}
+
+/*Style setting for the description under the list of education histories*/
+.edudescript{
+    margin-left: 0px;
+    display: block;
+    clear: both;
+}
+
+/*Design of the footer section*/
+footer{
+    height: 130px;
+    background-color: black;
+}
+
